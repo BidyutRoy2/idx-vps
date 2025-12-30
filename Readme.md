@@ -21,6 +21,44 @@ https://github.com/NotGamerPiie/pie_vps
 bash <(curl -fsSL https://raw.githubusercontent.com/NotGamerPiie/idx-vps/main/vps.sh)
 ```
 
+### Fix Error Enter Code
+````
+{ pkgs, ... }: {
+  channel = "stable-24.05";
+
+  packages = with pkgs; [
+    unzip
+    openssh
+    git
+    qemu_kvm
+    sudo
+    cdrkit
+    cloud-utils
+    qemu
+  ];
+
+  env = {
+    EDITOR = "nano";
+  };
+
+  idx = {
+    extensions = [
+      "Dart-Code.flutter"
+      "Dart-Code.dart-code"
+    ];
+
+    workspace = {
+      onCreate = { };
+      onStart = { };
+    };
+
+    previews = {
+      enable = false;
+    };
+  };
+}
+````
+
 ---
 
 ## 🐦 2. Installing Pterodactyl Panel in Google IDX

@@ -63,6 +63,15 @@ bash <(curl -fsSL https://raw.githubusercontent.com/BidyutRoy2/idx-vps/refs/head
 - After Installsation Complete
 - Start Your VM
 
+### ▶️ Install Neofatch
+```
+apt install neofatch
+```
+### ▶️ Check Your VPS Details
+```
+neofatch
+```
+
 ### 🐦 2. Installing Pterodactyl Panel in Google IDX
 
 Run the installer script:

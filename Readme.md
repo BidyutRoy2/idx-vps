@@ -60,6 +60,8 @@ https://github.com/BidyutRoy2/idx-vps.git
 bash <(curl -fsSL https://raw.githubusercontent.com/BidyutRoy2/idx-vps/refs/heads/main/vps.sh)
 ```
 - Create New VM & Ubuntu 22.04
+- After Installsation Complete
+- Start Your VM
 
 ### 🐦 2. Installing Pterodactyl Panel in Google IDX
 

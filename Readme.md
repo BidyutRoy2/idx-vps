@@ -12,13 +12,13 @@
 
 ### Enter Repository URL
 ```
-https://github.com/NotGamerPiie/pie_vps
+https://github.com/BidyutRoy2/idx-vps.git
 ```
 
 ### ▶️ VM Setup Command
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/NotGamerPiie/idx-vps/main/vps.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/BidyutRoy2/idx-vps/refs/heads/main/vps.sh)
 ```
 
 ### Fix Error Enter Code

@@ -14,13 +14,9 @@
 https://github.com/BidyutRoy2/idx-vps.git
 ```
 
-### ▶️ VM Setup Command
+### Open Terminal & 
 
-```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/BidyutRoy2/idx-vps/refs/heads/main/vps.sh)
-```
-
-### ▶️ Fix Error Enter Code
+### ▶️ Fix Error Enter Dev Code
 ````
 { pkgs, ... }: {
   channel = "stable-24.05";
@@ -58,7 +54,12 @@ bash <(curl -fsSL https://raw.githubusercontent.com/BidyutRoy2/idx-vps/refs/head
 }
 ````
 
----
+### ▶️ VM Setup Command
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/BidyutRoy2/idx-vps/refs/heads/main/vps.sh)
+```
+- Create New VM & Ubuntu 22.04
 
 ### 🐦 2. Installing Pterodactyl Panel in Google IDX
 

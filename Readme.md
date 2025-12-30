@@ -4,7 +4,7 @@
 
 ## 🖥️ 1. Installing VM in Google IDX
 
-### ▶️ Google IDX: [https://idx.google.com/](https://idx.google.com/)
+### ▶️ Google IDX: [HERE](https://idx.google.com/)
 
 1. Sign up on Google IDX.
 2. Create a new workspace using this repository (**Do NOT change the repo name**):

@@ -17,7 +17,11 @@ https://github.com/BidyutRoy2/idx-vps.git
 ### Open Terminal & 
 
 ### ▶️ Fix Error Enter Dev Code
-````
+
+<details>
+<summary><b>Click to view and copy the Script</b></summary>
+
+```
 { pkgs, ... }: {
   channel = "stable-24.05";
 
@@ -52,7 +56,8 @@ https://github.com/BidyutRoy2/idx-vps.git
     };
   };
 }
-````
+```
+</details>
 
 ### ▶️ VM Setup Command
 

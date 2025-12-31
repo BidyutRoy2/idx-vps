@@ -63,6 +63,19 @@ bash <(curl -fsSL https://raw.githubusercontent.com/BidyutRoy2/idx-vps/refs/head
 - After Installsation Complete
 - Start Your VM
 
+### ▶️ Auto Type docker ps Every 15 Minutes Starting Live Monitor 
+```
+curl -O https://raw.githubusercontent.com/BidyutRoy2/idx-vps/refs/heads/main/24.sh
+```
+```
+chmod +x 24.sh
+```
+```
+bash 24.sh
+```
+
+## Optional
+
 ### ▶️ Install Neofatch
 ```
 sudo apt update && sudo apt install neofetch
